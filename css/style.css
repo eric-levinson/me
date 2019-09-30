@@ -1,0 +1,64 @@
+body,
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+a {
+  color: #2BBBAD;
+}
+a:hover{
+  color: #00695c;
+}
+::selection {
+  background: black;
+  color: white
+}
+::-moz-selection {
+  background: black;
+  color: white;
+}
+
+.navbar {
+  background-color: transparent;
+}
+.top-nav-collapse {
+  background-color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #000;
+  }
+}
+.header, .contact-sec {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed !important;
+}
+.project-sec {
+}
+span-yeet {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+span{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+.beauty{
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.back{
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  background-color: #2BBBAD;
+}
